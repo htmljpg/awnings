@@ -1,0 +1,32 @@
+.built__items {padding-bottom: 88px;}
+.built__item {padding-bottom: 25px;}
+.built__wrapper {background-color: var(--white-color); padding: 34px 33px 34px 36px; border-radius: var(--border-radius-10); box-shadow: var(--built-box-shadow); font-size: 14px;}
+.built__left {max-width: 520px;}
+.built__image-wrapper {margin-bottom: 10px;}
+.built__image-link {height: 509px;}
+.built-thumbnail {margin-left: -4.5px; margin-right: -4.5px;}
+.thumbnail-wrapper {padding-left: 4.5px; padding-right: 4.5px;}
+.thumbnail {position: relative; z-index: 1;}
+.thumbnail::before {content: ''; background-color: var(--default-text-color); position: absolute; left: 0; top: 0; height: 100%; width: 100%; z-index: 1; border-radius: inherit; opacity: 0;}
+.thumbnail:hover::before {opacity: .2;}
+.swiper-slide-thumb-active .thumbnail::before {opacity: .75;}
+.built__image-link, .thumbnail {display: block; overflow: hidden; border-radius: var(--border-radius-10);}
+.built__content {padding-top: 12px;}
+.built__title {margin-bottom: 14px;}
+.built__block {margin-bottom: 10px;}
+.built__block-wrapper {background-color: var(--gray-light-3); padding: 15px 15px 21px 19px; border-radius: var(--border-radius-10);}
+.built__label {color: var(--built-label-color); display: block; margin-bottom: 4px;}
+
+.built__list-row {margin-left: -10px; margin-right: -10px;}
+.built__list-col {padding-top: 5px; font-size: 13px; line-height: 1.3847; padding-left: 10px; padding-right: 10px;}
+.built__list-item {padding-left: 18px; position: relative; z-index: 1; margin-bottom: 11px;}
+.built__list-item:last-of-type {margin-bottom: 0;}
+.built__block-row {margin-left: -5.5px; margin-right: -5.5px;}
+.built__block-col {padding-left: 5.5px; padding-right: 5.5px;}
+.built__list-icon {position: absolute; left: 0; top: 0; z-index: 1;}
+.icon__svg--check {height: 9px; width: 13px; fill: #ababab;}
+.built__icon-wrapper {padding-left: 43px; position: relative; z-index: 1; padding-top: 3px;}
+.built__icon {height: 40px; width: 40px; background-color: var(--orange-color); margin-left: -6px; margin-top: 1px;}
+.icon__svg--built-icon-2 {height: 19px;}
+.icon__svg--built-icon-3 {height: 16px; width: 21px;}
+.built__price {font-size: 16px; letter-spacing: 1px; line-height: .9;}

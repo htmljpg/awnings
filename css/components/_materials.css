@@ -1,0 +1,5 @@
+.materials__items {margin-left: -14px; margin-right: -14px; padding-bottom: 81px;}
+.materials__item {padding-left: 14px; padding-right: 14px;}
+.materials__image {height: 234px; border-radius: var(--border-radius-10) var(--border-radius-10) 0 0;}
+.materials__content {background-color: var(--white-color); padding: 17px 22px 29px; border-radius: 0 0 var(--border-radius-10) var(--border-radius-10);}
+.materials__title {font-size: 16px; line-height: 1.375; margin-bottom: 18px;}

@@ -1,0 +1,11 @@
+/*page*/
+.page {background-position: top center; background-repeat: no-repeat; overflow: hidden;}
+
+/*page row*/
+.page__row {background-repeat: no-repeat; background-position: top center;}
+.page__row--wrapper {min-height: 100vh; position: relative; z-index: 160;}
+.page__row--overlay {position: relative; z-index: 1;}
+.page__row--overlay::before {content: ''; height: 100%; width: 100%; position: absolute; left: 0; top: 0; z-index: -1; background: linear-gradient(80.48deg, rgba(var(--black-color), .8) 30.83%, rgba(var(--black-color), .496) 94.45%);}
+
+/*container*/
+.container-fluid {padding-left: 0; padding-right: 0;}

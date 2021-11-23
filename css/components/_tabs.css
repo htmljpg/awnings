@@ -1,0 +1,5 @@
+.tabs__nav {margin-bottom: 38px;}
+.tabs__nav-item {cursor: pointer; position: relative; z-index: 1; margin: 0 15px; padding-bottom: 10px; min-width: 147px; text-align: center; font-size: 17px; letter-spacing: .7px; border-bottom: 3px solid var(--block-link-border-color);}
+.tabs__nav-item.active {border-bottom-color: var(--default-text-color);}
+.tab__item {opacity: 0; transform: translateY(15px); animation: fadeIn 0.5s ease 1 forwards;}
+.tab__item.active {display: block!important;}

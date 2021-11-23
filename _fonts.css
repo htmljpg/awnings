@@ -1,0 +1,39 @@
+/* =================== BebasNeue =================== */
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('fonts/BebasNeue/BebasNeue-Bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* =================== BebasNeue =================== */
+
+/* =================== Montserrat =================== */
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* =================== Montserrat =================== */

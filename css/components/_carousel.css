@@ -1,0 +1,22 @@
+.carousel.swiper-container {overflow: visible;}
+.swiper-container-multirow-column>.swiper-wrapper {flex-direction: row; flex-wrap: nowrap;}
+.carousel .swiper-wrapper {z-index: 10;}
+.carousel .swiper-slide {min-height: 100%; opacity: 0; visibility: hidden; z-index: 50; -ms-transition: opacity .2s, visibility .2s, transform .2s, z-index .2s!important; transition: opacity .2s, visibility .2s, transform .2s, z-index .2s!important;}
+.carousel .swiper-slide-visible, .carousel--overflow-visible .swiper-slide {opacity: 1; z-index: 500; visibility: visible;}
+.disc {padding-top: 52px; display: flex; justify-content: center; flex-wrap: wrap; -ms-user-select: none; user-select: none;}
+.disc.disc--abs {position: absolute; width: auto; left: 50%; bottom: 0; z-index: 100; padding-bottom: 46px; padding-left: 2px; padding-top: 0; -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.disc--card-image {padding-top: 20px;}
+.disc.swiper-pagination-lock {display: none!important;}
+.disc .swiper-pagination-bullet {position: relative; cursor: pointer;}
+.disc .swiper-pagination-bullet::before {content: ''; display: block; height: 12px; width: 12px; background-color: var(--carousel-disc-bg-color); margin: 4.5px; -ms-border-radius: 6px; border-radius: 6px;}
+.disc .swiper-pagination-bullet-active::before {background-color: var(--carousel-disc-active-bg-color);}
+.swiper-button-lock {display: none!important;}
+
+.prev, .next {height: 38px; width: 38px; cursor: pointer; position: absolute; z-index: 50; top: 50%; margin-top: -19px; -ms-user-select: none; user-select: none; background-color: var(--white-color); fill: #5c5c5a;}
+.prev.swiper-button-disabled, .next.swiper-button-disabled, .prev.swiper-button-disabled:hover, .next.swiper-button-disabled:hover {opacity: .38;}
+.prev:hover:not(.swiper-button-disabled), .next:hover:not(.swiper-button-disabled) {opacity: 1; background-color: var(--orange-color);}
+.prev {left: 19px;}
+.next {right: 19px;}
+.icon__svg--prev, .icon__svg--next {height: 8px; width: 20px;}
+.swiper-button-disabled .icon__svg {fill: #5c5c5a;}
+.icon__svg--next {transform: rotate(180deg);}

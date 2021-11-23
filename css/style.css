@@ -1,0 +1,24 @@
+@import "_normalize.css";
+@import "_bootstrap-grid.min.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_overall.css";
+@import "_global.css";
+
+/* components imports */
+@import "./components/_carousel.css";
+@import "./components/_form.css";
+@import "./components/_btn.css";
+@import "./components/_tabs.css";
+@import "./components/_header.css";
+@import "./components/_nav.css";
+@import "./components/_intro.css";
+@import "./components/_canopy.css";
+@import "./components/_help.css";
+@import "./components/_materials.css";
+@import "./components/_layout.css";
+@import "./components/_built.css";
+@import "./components/_quality.css";
+@import "./components/_contacts.css";
+@import "./components/_footer.css";
+@import "_media.css";

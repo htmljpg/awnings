@@ -1,0 +1,18 @@
+.page__row--intro {overflow: hidden; position: relative; z-index: 1;}
+.intro {position: relative; z-index: 1; color: var(--white-color);}
+.intro__cell {position: relative; z-index: 1; min-height: 688px;}
+.intro__cell::before {content: ''; height: 100%; position: absolute; top: 0; z-index: -1; background-repeat: no-repeat; background-size: cover; width: 100%;}
+.intro__cell--content::before {background-image: url(../../img/intro-content-bg.jpg); background-position: top left; right: 0;}
+.intro__cell--form::before {background-image: url(../../img/intro-form-bg.jpg); background-position: top right; left: 0;}
+.intro__content {padding-top: 41px;}
+.intro__desc {font-size: 21px; line-height: 1.4762; margin-bottom: 44px;}
+.intro__price-items {margin-left: -6.5px; margin-right: -6.5px;}
+.intro__price-item {padding-left: 6.5px; padding-right: 6.5px; margin-bottom: 12px;}
+.intro__price-block {border: 1px solid var(--border-white-26); border-radius: var(--border-radius-10); position: relative; z-index: 1; min-height: 96px; padding: 27px 10px 27px 86px;}
+.intro__price-icon {margin-left: 21px; margin-top: 26px;}
+.icon__svg--intro-icon-1 {height: 42px; width: 45px;}
+.intro__price-text {display: block; font-size: 14px; line-height: 1.4286;}
+
+.intro__form {padding: 42px 0 0 42px;}
+.scroll-down {padding-left: 37px; position: absolute; bottom: 41px; left: 0; z-index: 1; font-size: 10px; letter-spacing: 1.5px; padding-top: 9px; padding-bottom: 13px;}
+.icon__svg--scroll-down {height: 30px; width: 18px;}

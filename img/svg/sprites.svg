@@ -1,0 +1,8 @@
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="tel" viewBox="0 0 13 24">
+        <g>
+            <defs><style>.cls-1{fill:#f11e32;}</style></defs><title>1tel</title><path class="cls-1" d="M616.93,504h-8.86a2.07,2.07,0,0,0-2.07,2.07v19.8a2.14,2.14,0,0,0,2.13,2.13h8.8a2.07,2.07,0,0,0,2.07-2.07V506.07A2.07,2.07,0,0,0,616.93,504ZM607,508h11v15H607Zm0-1.93a1.07,1.07,0,0,1,1.07-1.07h8.86a1.07,1.07,0,0,1,1.07,1.07V507H607Zm11,19.86a1.07,1.07,0,0,1-1.07,1.07h-8.8a1.14,1.14,0,0,1-1.13-1.13V524h11Z" transform="translate(-606 -504)"/>
+        </g>
+    </symbol>
+    <!-- адаптивные иконки -->
+</svg>

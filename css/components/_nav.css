@@ -1,0 +1,5 @@
+.page__row--nav {background-color: var(--nav-bg);}
+.nav {position: relative; z-index: 1;}
+.nav__item {text-align: center; border-left: 1px solid var(--nav-item-border-color); letter-spacing: 1.2px; flex: 1;}
+.nav__item:last-of-type {border-right: 1px solid var(--nav-item-border-color);}
+.nav__link {display: block; height: 68px; line-height: 75px; white-space: nowrap; font-size: 20px; text-transform: uppercase; position: relative; z-index: 1;}

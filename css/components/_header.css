@@ -1,0 +1,22 @@
+.page__row--header {background-color: var(--header-bg);}
+.header {padding: 25px 0;}
+.brand {display: inline-block; vertical-align: middle; position: relative; z-index: 1; padding-left: 74px; padding-top: 15px;}
+.brand__picture {position: absolute; left: 2px; top: 3px; z-index: 1; height: 61px; width: 53px;}
+.brand__title, .brand__subtitle {display: block; line-height: 1; white-space: nowrap;}
+.brand__title {font-size: 30px; letter-spacing: 2.2px; margin-bottom: 4px;}
+.brand__subtitle {font-size: 13px; letter-spacing: .9px;}
+.block-link {margin-left: 42px;}
+.block-link__row {margin-left: -7.5px; margin-right: -7.5px;}
+.block-link__cell {padding-left: 7.5px; padding-right: 7.5px;}
+.block-link__cell--inner {padding-top: 5px; padding-bottom: 4px;}
+.block-link__cell--inner:first-of-type {border-right: 1px solid var(--block-link-border-color); padding-right: 32px; margin-right: 19px;}
+.block-link__wrapper {background-color: var(--white-color); border-radius: var(--border-radius-10); min-height: 100%; padding-left: 27px; padding-top: 14px; padding-bottom: 12px; box-shadow: var(--block-link-box-shadow);}
+.block-link__icon {letter-spacing: .7px; line-height: 39px; display: inline-flex; align-items: center;}
+.block-link__icon--tel {font-size: 17px; letter-spacing: 0;}
+.icon--tel {margin-right: 20px;}
+.block-link__call {margin-left: 9px; letter-spacing: .6px;}
+.icon--measurer {margin-right: 14px;}
+.icon--calculator {margin-right: 20px;}
+.icon__svg--tel {height: 37px; width: 19px;}
+.icon__svg--measurer {height: 35px; width: 34px;}
+.icon__svg--calculator {height: 32px; width: 28px;}

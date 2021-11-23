@@ -1,0 +1,9 @@
+.page__row--footer {background-color: var(--footer-bg); color: var(--white-color);}
+.footer__top {padding-top: 70px; padding-bottom: 39px; margin-bottom: 34px; border-bottom: 1px solid var(--footer-top-border-bottom-color);}
+.block-link__wrapper--footer {background-color: var(--block-link-wrapper-footer-bg);}
+.footer__bottom {color: var(--gray-color); padding-bottom: 57px;}
+.footer__copy {margin-right: 111px;}
+.social__items {padding-top: 2px;}
+.loc {padding-left: 37px;}
+.icon--loc {margin-top: -4px;}
+.icon__svg--loc {height: 24px; width: 18px;}

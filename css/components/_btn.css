@@ -1,0 +1,16 @@
+.btn {cursor: pointer; text-transform: lowercase; position: relative; text-transform: uppercase; z-index: 1; font-size: 16px; line-height: 1; padding-left: 15px; padding-right: 15px; padding-bottom: 1px; display: inline-flex; justify-content: center; align-items: center; -ms-user-select: none; user-select: none; letter-spacing: 1.1px; -ms-border-radius: var(--border-radius-10); border-radius: var(--border-radius-10);}
+.btn--default {background: -moz-linear-gradient( 180deg, var(--gradient-first-color) 0%, var(--gradient-last-color) 100%); background: -webkit-linear-gradient( 180deg, var(--gradient-first-color) 0%, var(--gradient-last-color) 100%); background: -ms-linear-gradient( 180deg, var(--gradient-first-color) 0%, var(--gradient-last-color) 100%); background: linear-gradient( 180deg, var(--gradient-first-color) 0%, var(--gradient-last-color) 100%); color: var(--default-text-color);}
+.btn--default:hover {color: var(--white-color);}
+.btn::after {content: ''; display: block; position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; -ms-border-radius: inherit; border-radius: inherit;}
+.btn--default::after {background-color: var(--accent-color);}
+.btn::after {opacity: 0;}
+.btn:hover::after {opacity: 1;}
+.btn--fluid {width: 100%;}
+.btn--md {height: var(--btn-md-height); padding-top: 5px;}
+.btn--lg {height: var(--btn-lg-height); padding-top: 5px; font-size: 20px; padding-left: 51px; padding-right: 57px;}
+
+.btn__icon {margin-left: 4px; margin-right: 20px; top: -4px;}
+.btn__icon--message {margin-left: 6px; margin-right: 17px; top: -1px;}
+.icon__svg--btn-calculator {height: 25px; width: 22px;}
+.icon__svg--message {height: 25px; width: 32px;}
+.icon__svg--installation {height: 25px; width: 22px;}
